@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Checkout </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="auto.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="sedans.html">Sedans</a>
+        <a href="trucks.html">Trucks</a>
+        <a href="vans.html">Vans</a>
+        <div class="topnav-right">
+            <a class="current" href="checkout.html">Checkout</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+    <div id="wrapper">
+        <header>
+            <h1><a href="index.html"> Auto Store </a></h1>
+        </header>
+        <main>
+            <div id="herocheckout">
+            </div>
+            <h2 id="left">Checkout</h2>
+            <p> Thank you for shopping! We hope you found something you like! Keep in mind all info is required for
+                checkout!</p>
+            <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName"> Name: </label>
+                <input type="text" id="myName" name="myName" required>
+                <label for="myEmail">E-mail:</label>
+                <input type="email" id="myEmail" name="myEmail" required>
+                <label for="myCard">Card:</label>
+                <input type="text" id="myCard" name="myCard" required>
+                <div class="container">
+                    <input type="checkbox" /> 2007 Chevy Impala <br />
+                    <input type="checkbox" /> 2000 Toyota Camry <br />
+                    <input type="checkbox" /> 1999 Honda Civic <br />
+                    <input type="checkbox" /> 2000 Ford Taurus <br />
+                    <input type="checkbox" /> 2000 Chevy Silverado <br />
+                    <input type="checkbox" /> 2000 Chevy Silverado (2) <br />
+                    <input type="checkbox" /> 2000 Dodge Ram <br />
+                    <input type="checkbox" /> 2000 Ford Lightning <br />
+                    <input type="checkbox" /> 2000 Dodge Caravan <br />
+                    <input type="checkbox" /> 2000 Chevy Express <br />
+                    <input type="checkbox" /> 2000 Honda Odyssey <br />
+                    <input type="checkbox" /> 2000 Chevy Venture <br />
+                </div>
+                <input type="submit" value="Checkout" id="mySubmit"> </input>
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2023 Auto Store <br>
+            <a href="mailto:example@email.com">example@email.com</a>
+        </footer>
+    </div>
+</body>
+</div>
+
+</html>
